@@ -19,6 +19,7 @@ import java.util.Map;
 
 @Configuration
 public class ShiroConfig {
+    private int num1;
     private Integer age;
     private int test;
     private String name;
