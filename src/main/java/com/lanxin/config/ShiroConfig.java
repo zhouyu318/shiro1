@@ -22,7 +22,7 @@ public class ShiroConfig {
 
     private String c;
  private  String a;
- private  String b;
+ private String ab;
     @Value("${spring.redis.host}")
     private String host;
 
