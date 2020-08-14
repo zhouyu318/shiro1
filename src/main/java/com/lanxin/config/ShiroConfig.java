@@ -19,6 +19,7 @@ import java.util.Map;
 
 @Configuration
 public class ShiroConfig {
+    private Integer age;
     private String name;
     @Value("${spring.redis.host}")
     private String host;
