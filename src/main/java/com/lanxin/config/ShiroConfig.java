@@ -21,6 +21,7 @@ import java.util.Map;
 public class ShiroConfig {
 
  private  String a;
+ private  String b;
     @Value("${spring.redis.host}")
     private String host;
 
